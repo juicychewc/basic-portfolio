@@ -1,14 +1,24 @@
 header {
     background: #ffffff;
-    font-family: 'Georgia', Times, Times New Roman, serif;
     border-color: #cccccc;
+    position: fixed;
+    padding: 29px;
+    width: 100%;
     border-bottom: 1px solid;
-    border-right: 1px solid;
+    top: 0;
+    left: 0;
+    z-index: 9001;
+}
+
+nav {
+    background: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     width: 82%;
     position: fixed;
     top: 0;
     left: 160px;
-    z-index: 9001;
+    z-index: 9002;
+
 }
 
 footer {
@@ -88,7 +98,7 @@ textarea {
 
 .navlink {
     float: left;
-    margin-left: 750px;
+    margin-left: 800px;
 }
 
 .navlink a {
